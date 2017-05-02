@@ -37,7 +37,7 @@ namespace RunEmployee
 
         public Employee()
         {
-            //Console.WriteLine("Employees have been initialized." );
+            Console.WriteLine("{0} have been initialized." , GetType() );
         }
 
         public void DisplayMenu() // what do you want to do to the employee???
@@ -108,8 +108,7 @@ namespace RunEmployee
         }
         public void DisplayEmp()
         {
-            Console.WriteLine(Employee[input].GetType(); // test to see which one works to display the type of Employee
-            Console.WriteLine(Employee[index].GetType(); // test to see which one works to display the type of Employee
+            
             Console.WriteLine("Hours:{0} ", hours);
             Console.WriteLine("Rate:{0} ", rate);
             Console.WriteLine("Gross:{0} ", gross);
