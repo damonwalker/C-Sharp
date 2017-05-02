@@ -108,7 +108,8 @@ namespace RunEmployee
         }
         public void DisplayEmp()
         {
-            Console.WriteLine(employee[index].GetType();
+            Console.WriteLine(Employee[input].GetType(); // test to see which one works to display the type of Employee
+            Console.WriteLine(Employee[index].GetType(); // test to see which one works to display the type of Employee
             Console.WriteLine("Hours:{0} ", hours);
             Console.WriteLine("Rate:{0} ", rate);
             Console.WriteLine("Gross:{0} ", gross);
