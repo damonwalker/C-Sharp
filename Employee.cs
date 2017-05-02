@@ -108,7 +108,7 @@ namespace RunEmployee
         }
         public void DisplayEmp()
         {
-            
+            Console.WriteLine(employee[index].GetType();
             Console.WriteLine("Hours:{0} ", hours);
             Console.WriteLine("Rate:{0} ", rate);
             Console.WriteLine("Gross:{0} ", gross);
