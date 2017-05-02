@@ -37,7 +37,7 @@ namespace RunEmployee
 
         public Employee()
         {
-            Console.WriteLine("Employees have been initialized." );
+            //Console.WriteLine("Employees have been initialized." );
         }
 
         public void DisplayMenu() // what do you want to do to the employee???
