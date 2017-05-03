@@ -32,6 +32,7 @@ namespace RunEmployee
             //ra.ReadAccounts();
             re.ChooseEmployees();
             re.SaveAccounts();
+            re.WriteText(); // test write text method
             //Employee.Exit();
 
         }
@@ -94,6 +95,21 @@ namespace RunEmployee
             FileStream.Close();
             //Console.WriteLine("You are in the SaveAccounts method");
         } // end ReadAccounts
+        
+        public void WriteText()
+             using (System.IO.StreamWriter file = 
+            new System.IO.StreamWriter(@"WriteLines.txt"))
+        {
+            //foreach (string line in lines)
+            file.WriteLine(DisplayEmployee());
+            //{
+                // If the line doesn't contain the word 'Second', write the line to the file.
+               // if (!line.Contains("Second"))
+               // {
+                    file.WriteLine(line);
+                //}
+            //}
+        }
     }// end class RunEmployee 
 }// end namespace
 
