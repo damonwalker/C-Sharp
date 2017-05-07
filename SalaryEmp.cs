@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +13,8 @@ namespace RunEmployee
         
         public override void ComputeGross()
         {
+            Console.WriteLine("Please enter the Employee's Name: ");
+            name = Console.ReadLine();
             Console.WriteLine("Enter\n 1) For Staff Employee\n 2) For Executive Employee: ");
             int input = Convert.ToInt16(Console.ReadLine());
 
