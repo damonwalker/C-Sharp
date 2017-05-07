@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -25,19 +25,19 @@ namespace RunEmployee
     //[XMLInclude(typeof HourlyEmp)]
     public abstract class Employee
     {
-
+        public string name;
         public float rate;
-        float taxrate = 0.2f;
+        public float taxrate = 0.2f;
         public int hours;
-        protected float gross; // same as pay
-        float tax = 0.0f;
-        float net_percent = 0.0f;
-        float netpay;
+        public float gross; // same as pay
+        public float tax = 0.0f;
+        public float net_percent = 0.0f;
+        public float netpay;
         //protected float pay;
 
         public Employee()
         {
-            //Console.WriteLine("{0} have been initialized." , GetType() );
+            //Console.WriteLine("{0} have been initialized.", GetType() );
         }
 
         public void DisplayMenu() // what do you want to do to the employee???
@@ -46,6 +46,7 @@ namespace RunEmployee
 
             do
             {
+                //Console.WriteLine(GetType());
                 Console.WriteLine("Please enter a choice [1-6]: ");
                 Console.WriteLine("1) Calculate Gross Pay");
                 Console.WriteLine("2) Calculate Tax");
@@ -72,17 +73,7 @@ namespace RunEmployee
                     case 5:
                         DisplayEmp();
                         break;
-                    //case 6:
-                    //    Exit();
-                    //    break;
-
-                    //default:
-                    //    {
-                    //        //Console.WriteLine("Invalid Entry. Please try again. ");
-                    //        Console.Clear();
-                    //        DisplayMenu();
-                    //        break;
-                    //    } // end default
+                  
 
 
                 }
@@ -91,48 +82,47 @@ namespace RunEmployee
         public void CalcTax()
         {
             tax = gross * taxrate;
-            Console.WriteLine("you are in the CalcTax method");
+            Console.WriteLine("Tax is {0} ", tax);
             //DisplayMenu();
         }
         public void CalcNet()
         {
             netpay = gross - tax;
-            Console.WriteLine("you are in the CalcNet method");
+            Console.WriteLine("Net pay is {0} ", netpay);
             //DisplayMenu();
         }
         public void CalcNetPer()
         {
             net_percent = (netpay / gross) * 100;
-            Console.WriteLine("you are in the CalcNetPer method");
+            Console.WriteLine("Net percentage is {0} ", net_percent);
             //DisplayMenu();
         }
         public void DisplayEmp()
         {
-            
+            Console.WriteLine("Employee: ", name);
             Console.WriteLine("Hours:{0} ", hours);
             Console.WriteLine("Rate:{0} ", rate);
-            Console.WriteLine("Gross:{0} ", gross);
-            Console.WriteLine("Net:{0} ", netpay);
-            Console.WriteLine("Net%:{0} ", net_percent);
+            Console.WriteLine("Gross:{0:c} ",  gross);
+            Console.WriteLine("Net:{0:c} ", netpay);
+            Console.WriteLine("Net%: {0}", net_percent);
 
         }
         public abstract void ComputeGross();
-        //{
 
-        //    //return rate * hours;
-        //   Console.WriteLine("Gross hours has been calculated");
-        //    //DisplayMenu();
-        //} // end ComputeGross
 
-    //public static void Exit()
-    //    {
+        public override string ToString()
+        {
+            return "Employee Earnings info: " + hours + rate + gross + netpay + net_percent;
+        }
 
-    //        Console.WriteLine("You are in the EXIT METHOD.");
-    //        Console.ReadKey();
-    //        System.Environment.Exit(0);
-    //    }
+        public virtual string EmployeeTextData() // Problem Solved
+        {
 
+            return "Employee "+ name + " Earnings Info: " + "  Hours Worked:  " + hours + "  Rate of Pay: " + rate + "  Gross Pay: "+ gross + "  Net Pay: " + netpay + "  Net Percentage: " + net_percent; 
+        }
         
+
+
     } // end class Employee
 } // end namespace
 
