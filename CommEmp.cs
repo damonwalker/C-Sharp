@@ -12,6 +12,8 @@ namespace RunEmployee
         private float cost;
         public override void ComputeGross()
         {
+            Console.WriteLine("Please enter the Employee's Name: ");
+            name = Console.ReadLine();
             Console.WriteLine("How many items were sold this month: ");
             sold = Convert.ToInt16(Console.ReadLine());
             Console.WriteLine("Cost of the items sold this month: ");
