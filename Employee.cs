@@ -118,7 +118,7 @@ namespace RunEmployee
         public virtual string EmployeeTextData() // Problem Solved
         {
 
-            return "Employee "+ name + " Earnings Info: " + "  Hours Worked:  " + hours + "  Rate of Pay: " + rate + "  Gross Pay: "+ gross + "  Net Pay: " + netpay + "  Net Percentage: " + net_percent; 
+            return "Employee "+ name\n + " Earnings Info: " + "  Hours Worked:  " + hours\n + "  Rate of Pay: " + rate\n + "  Gross Pay: "+ gross\n + "  Net Pay: " + netpay\n + "  Net Percentage: " + net_percent\n; 
         }
         
 
