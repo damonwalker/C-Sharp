@@ -104,59 +104,13 @@ namespace RunEmployee
 
 
         }
-            //catch(DirectoryNotFoundException e)
-            //{
-            //    //do nothing
-            //}
-            //catch(NullReferenceException ne)
-            //{
-            //    //do nothing
-            //}
-            //catch(IOException ioe)
-            //{
-            //    // do nothing
-            //}
-            //XmlSerializer serializer = new XmlSerializer(acctArray.GetType());
-            //BinaryFormatter serializer = new BinaryFormatter();
-
+            
         public void ReadEmployees()
         {
             Stream FileStream = File.OpenRead("AcctDW.xml");
             XmlSerializer deserializer = new XmlSerializer(typeof(Employee[]));
             emp = (Employee[])deserializer.Deserialize(FileStream);
             FileStream.Close();
-            //Console.WriteLine("You are in the SaveAccounts method");
         } // end ReadAccounts
 
-        //public static void WriteText() // this will write the employee information to the text file
-        //{
-            
-
-        //        //string text = "Employee.EmployeeTextData()";
-        //        //System.IO.StreamWriter file = new System.IO.StreamWriter("TextDW.txt");
-        //        //file.WriteLine(text);
-        //        //file.Close();
-        //    } // end WriteText
-    }// end class RunEmployee 
-}// end namespace
-
-
-//file.WriteLine(path);
-//Console.WriteLine("What file would you like to write?");
-
-
-//for (int i=0; i < 5; i++)
-//{
-//    writeText[i] = Console.ReadLine();
-//}
-//File.WriteAllLines(path, writeText, Encoding.UTF8);
-
-// write the array to a file
-
-
-//for (int i = 0; i < 5; i++)
-//{
-//    file.WriteLine(writeText[i]);
-//}
-
-//file.WriteLine(lines);
+        
