@@ -12,17 +12,6 @@ namespace RunEmployee
     [XmlInclude(typeof(HourlyEmp)), XmlInclude(typeof(SalaryEmp)), XmlInclude(typeof(CommEmp)),
      XmlInclude(typeof(Employee))]
 
-    // [XmlArray]
-    // [XmlArrayItem(typeof(int),
-    //ElementName = "MyNumber"),
-    //XmlArrayItem(typeof(string),
-    //ElementName = "MyString"),
-    //XmlArrayItem(typeof(Employee))]
-    // public object[] ExtraInfo;
-    //[xmlArrayItem(typeof HourlyEmp)]
-    //[xmlArrayItem(typeof (SalaryEmp))]
-    //[xmlArrayItem(typeof (CommEmp))]
-    //[XMLInclude(typeof HourlyEmp)]
     public abstract class Employee
     {
         public string name;
