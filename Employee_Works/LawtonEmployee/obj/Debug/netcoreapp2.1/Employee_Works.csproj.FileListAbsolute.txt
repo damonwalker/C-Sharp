@@ -1,0 +1,11 @@
+C:\Users\USER\Documents\GitHub\C-Sharp\Employee_Works\LawtonEmployee\bin\Debug\netcoreapp2.1\Employee_Works.deps.json
+C:\Users\USER\Documents\GitHub\C-Sharp\Employee_Works\LawtonEmployee\bin\Debug\netcoreapp2.1\Employee_Works.runtimeconfig.json
+C:\Users\USER\Documents\GitHub\C-Sharp\Employee_Works\LawtonEmployee\bin\Debug\netcoreapp2.1\Employee_Works.runtimeconfig.dev.json
+C:\Users\USER\Documents\GitHub\C-Sharp\Employee_Works\LawtonEmployee\bin\Debug\netcoreapp2.1\Employee_Works.dll
+C:\Users\USER\Documents\GitHub\C-Sharp\Employee_Works\LawtonEmployee\bin\Debug\netcoreapp2.1\Employee_Works.pdb
+C:\Users\USER\Documents\GitHub\C-Sharp\Employee_Works\LawtonEmployee\obj\Debug\netcoreapp2.1\Employee_Works.csprojAssemblyReference.cache
+C:\Users\USER\Documents\GitHub\C-Sharp\Employee_Works\LawtonEmployee\obj\Debug\netcoreapp2.1\Employee_Works.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\GitHub\C-Sharp\Employee_Works\LawtonEmployee\obj\Debug\netcoreapp2.1\Employee_Works.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\GitHub\C-Sharp\Employee_Works\LawtonEmployee\obj\Debug\netcoreapp2.1\Employee_Works.AssemblyInfo.cs
+C:\Users\USER\Documents\GitHub\C-Sharp\Employee_Works\LawtonEmployee\obj\Debug\netcoreapp2.1\Employee_Works.dll
+C:\Users\USER\Documents\GitHub\C-Sharp\Employee_Works\LawtonEmployee\obj\Debug\netcoreapp2.1\Employee_Works.pdb

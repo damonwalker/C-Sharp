@@ -1,0 +1,22 @@
+c:\users\dlw7wb\source\repos\ATM\ATM\bin\Debug\netcoreapp2.1\ATM.deps.json
+c:\users\dlw7wb\source\repos\ATM\ATM\bin\Debug\netcoreapp2.1\ATM.runtimeconfig.json
+c:\users\dlw7wb\source\repos\ATM\ATM\bin\Debug\netcoreapp2.1\ATM.runtimeconfig.dev.json
+c:\users\dlw7wb\source\repos\ATM\ATM\bin\Debug\netcoreapp2.1\ATM.dll
+c:\users\dlw7wb\source\repos\ATM\ATM\bin\Debug\netcoreapp2.1\ATM.pdb
+c:\users\dlw7wb\source\repos\ATM\ATM\obj\Debug\netcoreapp2.1\ATM.csprojAssemblyReference.cache
+c:\users\dlw7wb\source\repos\ATM\ATM\obj\Debug\netcoreapp2.1\ATM.csproj.CoreCompileInputs.cache
+c:\users\dlw7wb\source\repos\ATM\ATM\obj\Debug\netcoreapp2.1\ATM.AssemblyInfoInputs.cache
+c:\users\dlw7wb\source\repos\ATM\ATM\obj\Debug\netcoreapp2.1\ATM.AssemblyInfo.cs
+c:\users\dlw7wb\source\repos\ATM\ATM\obj\Debug\netcoreapp2.1\ATM.dll
+c:\users\dlw7wb\source\repos\ATM\ATM\obj\Debug\netcoreapp2.1\ATM.pdb
+D:\Visual Studio 2015\Projects\ATM\ATM\bin\Debug\netcoreapp2.1\ATM.deps.json
+D:\Visual Studio 2015\Projects\ATM\ATM\bin\Debug\netcoreapp2.1\ATM.runtimeconfig.json
+D:\Visual Studio 2015\Projects\ATM\ATM\bin\Debug\netcoreapp2.1\ATM.runtimeconfig.dev.json
+D:\Visual Studio 2015\Projects\ATM\ATM\bin\Debug\netcoreapp2.1\ATM.dll
+D:\Visual Studio 2015\Projects\ATM\ATM\bin\Debug\netcoreapp2.1\ATM.pdb
+D:\Visual Studio 2015\Projects\ATM\ATM\obj\Debug\netcoreapp2.1\ATM.csprojAssemblyReference.cache
+D:\Visual Studio 2015\Projects\ATM\ATM\obj\Debug\netcoreapp2.1\ATM.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2015\Projects\ATM\ATM\obj\Debug\netcoreapp2.1\ATM.AssemblyInfoInputs.cache
+D:\Visual Studio 2015\Projects\ATM\ATM\obj\Debug\netcoreapp2.1\ATM.AssemblyInfo.cs
+D:\Visual Studio 2015\Projects\ATM\ATM\obj\Debug\netcoreapp2.1\ATM.dll
+D:\Visual Studio 2015\Projects\ATM\ATM\obj\Debug\netcoreapp2.1\ATM.pdb
